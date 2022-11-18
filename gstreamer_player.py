@@ -136,6 +136,9 @@ if __name__ == "__main__":
 
 # TODO
 # integrate player into kivy (make widget based on kivy/core/video/video_gstplayer.py)
+# add controls to normal stream player
+# create gstreamer pipeline for buffering and VOD recording
+# generalize for other sources (other than twitch)
 # gst-python reference:
 #   https://github.com/GStreamer/gst-python/blob/master/examples/dynamic_src.py
 #   https://github.com/happyleavesaoc/python-snapcast/blob/master/snapcast/client/gstreamer.py
