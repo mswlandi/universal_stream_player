@@ -1,0 +1,1 @@
+gst-launch-1.0 souphttpsrc location=link.m3u8 ! hlsdemux ! decodebin ! audioconvert ! autoaudiosink
